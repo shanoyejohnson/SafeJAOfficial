@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a4f7e37df22b4834964b79829fb18295" Name="Diagram1">
+        <EntityTypeShape EntityType="zosoModel.parish" Width="1.5" PointX="0.75" PointY="1.25" />
+        <EntityTypeShape EntityType="zosoModel.report" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="zosoModel.users" Width="1.5" PointX="0.75" PointY="4.75" />
+        <AssociationConnector Association="zosoModel.FK_report_ToTable" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
